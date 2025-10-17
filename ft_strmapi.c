@@ -1,8 +1,8 @@
-#include "stddef.h"
+#include "libft.h"
 
 char *ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	size_t i;
+	unsigned int i;
 	char *mapped;
 
 	if (s == NULL || f == NULL)
