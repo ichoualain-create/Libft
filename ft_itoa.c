@@ -1,6 +1,6 @@
 #include "libft.h"
 
-static int ft_len(int n)
+int ft_len(int n)
 {
 	size_t count;
 

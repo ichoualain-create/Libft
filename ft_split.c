@@ -16,7 +16,6 @@ int safe_malloc(char **token_v, int position, size_t buffer)
 	return (0);
 }
 
-// return 0 if all mallocs went fine, otherwise 1
 int fill(char **token_v, char const *s, char delimeter)
 {
 	size_t len;
@@ -67,7 +66,7 @@ size_t count_tokens(char const *s, char delimeter)
 	return (tokens);
 }
 
-char **ft_split(char const *s, char c)
+char **ft_split(const char *s, char c)
 {
 	size_t tokens;
 	char **token_v;
